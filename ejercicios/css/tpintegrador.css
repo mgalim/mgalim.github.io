@@ -1,15 +1,93 @@
-body {
-  background-color: gray;
+.bg-dark {
+  background-color: #353a40 !important;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Lato", sans-serif;
+.navbar-brand img {
+  width: 110px;
 }
 
-.img-fluid {
-  width: 100%;
-  max-height: 500px;
+.link-success {
+  color: #29a744 !important;
+}
+
+.link-success:hover {
+  color: #3ae860 !important;
+}
+
+.text-reset {
+  text-decoration-style: dotted;
+}
+
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.carousel-caption {
+  font-size: 1.1rem;
+  margin-bottom: 70px;
+  right: 6%;
+  margin-left: auto;
+  max-width: 570px;
+  padding-bottom: 35px;
+  z-index: 5;
+}
+
+.carousel img {
   object-fit: cover;
+  height: 780px;
+}
+
+.honolulu {
+  background-image: url(../img/honolulu.jpg);
+  background-size: cover;
+  height: 640px;
+}
+
+form {
+  max-width: 770px;
+}
+
+.carousel .btn-success {
+  background-color: #29a744;
+  border-color: #29a744;
+}
+
+.carousel .btn-success:hover {
+  background-color: #186429;
+  border-color: #186429;
+}
+
+.bg-info {
+  background-color: #17a2b7 !important;
+}
+
+.btn-success {
+  background-color: #96c93e;
+  border-color: #96c93e;
+}
+.btn-success:hover {
+  background-color: #516d20;
+  border-color: #516d20;
+}
+
+footer .nav-item {
+  padding: 0px 25px;
+  width: 170px;
+}
+
+footer {
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1e5372, #1c3d4e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #1e5372,
+    #1c3d4e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
