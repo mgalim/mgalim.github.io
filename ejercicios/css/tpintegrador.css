@@ -77,14 +77,14 @@ form {
   border-color: #516d20;
 }
 
-.form-control-lg {
+#total {
   margin-top: 20px;
   padding: 15px 15px;
   color: #285b93;
   background-color: #cce5ff;
 }
 
-.form-control-lg:disabled {
+#total:disabled {
   background-color: #cce5ff;
 }
 
