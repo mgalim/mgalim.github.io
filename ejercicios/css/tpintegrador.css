@@ -77,6 +77,21 @@ form {
   border-color: #516d20;
 }
 
+.form-control-lg {
+  margin-top: 20px;
+  padding: 15px 15px;
+  color: #285b93;
+  background-color: #cce5ff;
+}
+
+.form-control-lg:disabled {
+  background-color: #cce5ff;
+}
+
+.formbuy {
+  max-width: 700px;
+}
+
 footer .nav-item {
   padding: 0px 25px;
   width: 170px;
@@ -90,4 +105,11 @@ footer {
     #1e5372,
     #1c3d4e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media only screen and (min-width: 768px) {
+  .foo {
+    position: absolute;
+    bottom: 0;
+  }
 }
