@@ -114,19 +114,14 @@
           </select>
         </div>
         <div class="col-12">
-          <input
-            class="form-control form-control-lg"
-            type="text"
-            aria-label="total"
-            id="total"
-            value="Total a Pagar: $"
-            disabled
-          />
+          <div class="alert alert-primary mt-4" role="alert">
+            Total a Pagar: <strong>$<span id="total" class="ps-1"></span></strong>
+          </div>
         </div>
-        <div class="col-md-6 mt-5">
+        <div class="col-md-6 mt-4">
           <button onclick="reset()" class="btn btn-lg btn-success w-100">Borrar</button>
         </div>
-        <div class="col-md-6 mt-5">
+        <div class="col-md-6 mt-4">
           <button onclick="calcular()" type="submit" class="btn btn-lg btn-success w-100">Resumen</button>
         </div>
       </div>
