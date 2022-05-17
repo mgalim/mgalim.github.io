@@ -1,5 +1,6 @@
+var precio = 200;
+
 calcular = function () {
-  var precio = 200;
   var cantidad = Number(document.getElementById("cantidad").value);
   var categoria = Number(document.getElementById("categoria").value) / 100;
   var subtotal = cantidad * precio;
