@@ -91,7 +91,7 @@
         <small class="mb-1">VENTA</small>
         <h2>VALOR DE TICKET $ 200</h2>
       </div>
-      <div class="row g-3 mx-auto mt-1 formbuy">
+      <form action="#" method="get" class="row g-3 mx-auto mt-1 formbuy" novalidate>
         <div class="col-md-6">
           <input type="text" class="form-control" placeholder="Nombre" id="nombre" />
         </div>
@@ -103,7 +103,7 @@
         </div>
         <div class="col-md-6">
           <label for="cantidad" class="form-label">Cantidad</label>
-          <input type="number" class="form-control" placeholder="Cantidad" id="cantidad" required />
+          <input type="number" class="form-control" placeholder="Cantidad" id="cantidad" />
         </div>
         <div class="col-md-6">
           <label for="categoria" class="form-label">Categoria</label>
@@ -119,12 +119,12 @@
           </div>
         </div>
         <div class="col-md-6 mt-4">
-          <button onclick="reset()" class="btn btn-lg btn-success w-100">Borrar</button>
+          <button onclick="limpiar();" type="reset" class="btn btn-lg btn-success w-100">Borrar</button>
         </div>
         <div class="col-md-6 mt-4">
           <button onclick="calcular()" type="submit" class="btn btn-lg btn-success w-100">Resumen</button>
         </div>
-      </div>
+      </form>
     </section>
 
     <!-- Footer -->
